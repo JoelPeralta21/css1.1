@@ -1,0 +1,333 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+}
+
+h2 {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.primergrid {
+    display: grid;
+    padding: 20px 75px;
+    grid-template-columns: 3fr 4fr;
+    background-image: url(/imagenes/primerfondodesktop.svg);
+    height: 750px;
+    background-color: hsl(193, 100%, 96%);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.botonblanco {
+    display: grid;
+    border-radius: 5%;
+    justify-self: end;
+    /*lo mueve con respecto a la columna*/
+}
+
+.botonblancoletra {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+    width: 170px;
+    height: 40px;
+    border-radius: 5em;
+    font-weight: 600;
+    border-radius: 5em;
+    background-color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.titulo {
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    padding-right: 5em;
+}
+
+.parrafoprincipal {
+    padding-right: 10em;
+    font-size: 15px;
+    padding-left: 0;
+}
+
+.botonrosado {
+    display: grid;
+    justify-self: left;
+}
+
+.botonrosadoletra {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+    width: 225px;
+    height: 40px;
+    border-radius: 5em;
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+    font-size: 13px;
+}
+
+.botonrosadoletra2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+    width: 350px;
+    height: 65px;
+    border-radius: 5em;
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+}
+
+.divPrimeraImagen {
+    display: grid;
+    justify-self: end;
+    grid-column: 2/3;
+}
+
+.primeraimagen {
+    width: 750px;
+    height: 500px;
+    margin-top: 50px;
+}
+
+.divletras1 {
+    display: grid;
+    justify-self: left;
+    align-self: center;
+}
+
+.contenedor {
+    max-width: 1300px;
+    margin: 10px auto;
+    display: grid;
+    grid-row-gap: 45px;
+    margin-top: 7em;
+    grid-template-rows: repeat(3, 1fr);
+    border-radius: 5%;
+}
+
+.contenido1 {
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+    height: 425px;
+    border-radius: 1em;
+}
+
+.contenedordeletras1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 100px;
+    padding-right: 16em;
+}
+
+.contenedordeimagen1 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 650px;
+    padding-right: 3em;
+}
+
+.imagen1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenido2 {
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 1em;
+}
+
+.contenedordeletras2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 225px;
+    padding-right: 6em;
+}
+
+.contenedordeimagen2 {
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+}
+
+.contenido3 {
+    display: flex;
+    flex-direction: row;
+    height: 425px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 1em;
+}
+
+.contenedordeletras3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 100px;
+    padding-right: 16em;
+}
+
+.contenedordeimagen3 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 650px;
+    padding-right: 3em;
+}
+
+.footer {
+    margin-top: 20em;
+    background-color: hsl(192, 100%, 9%);
+    height: 500px;
+    display: grid;
+    grid-template-columns: 712px 200px 190px 366.150px;
+}
+
+.location>p,
+.email>p,
+.phone>p {
+    margin: 0;
+    color: white;
+    margin-left: 15px;
+}
+
+.location,
+.email,
+.phone {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+
+.imagenfooter {
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+.footercolumn1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 180px;
+    padding-right: 10em;
+}
+
+.footercolumn2>p {
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+.footercolumn2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 75px;
+}
+
+.footercolumn3>p {
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+.footercolumn3 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 75px;
+}
+
+.footercolumn4 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.iconos {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 13em;
+    color: white;
+}
+
+.iconos>.fb>i {
+    border: 1px solid white;
+    border-radius: 7em;
+    padding: 7px 10px;
+    margin-left: 10px;
+}
+
+.iconos>.twitter>i {
+    border: 1px solid white;
+    border-radius: 7em;
+    padding: 7px 7px;
+    margin-left: 10px;
+}
+
+.iconos>.ig>i {
+    border: 1px solid white;
+    border-radius: 7em;
+    padding: 7px 7px;
+    margin-left: 10px;
+}
+
+.derechos>p {
+    color: white;
+}
+
+.derechos {
+    margin-top: 10em;
+}
+
+.box {
+    background-color: white;
+    width: 750px;
+    height: 250px;
+    padding: 25px 25px;
+    position: absolute;
+    top: 136em;
+    left: 23em;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.derechos>p {
+    padding-left: 10px;
+    font-size: 10px;
+}
